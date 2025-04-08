@@ -1,0 +1,190 @@
+apiVersion: v1
+entries:
+  config-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.168870824+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 954e288ca7e3b7914aa35ce844d2a806e398ce3067b943045bbfa1c975fd1c4e
+    name: config-service
+    type: application
+    urls:
+    - config-service-0.1.0.tgz
+    version: 0.1.0
+  discovery-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.169025151+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 876c4ff71e2f97c9e13f84528e2967c401ad72013e5f0ee103c22ade48af9f96
+    name: discovery-service
+    type: application
+    urls:
+    - discovery-service-0.1.0.tgz
+    version: 0.1.0
+  gateway-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.169165332+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 9248ebba43cc515226bf9121fdf02a59122c4161036dbe1350f66a19870fab75
+    name: gateway-service
+    type: application
+    urls:
+    - gateway-service-0.1.0.tgz
+    version: 0.1.0
+  grafana:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.1692787+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1a52f7c233ef9a000f7acf8beb98820c11dc7ab7c50456c7d1b01ac0479dcfeb
+    name: grafana
+    type: application
+    urls:
+    - grafana-0.1.0.tgz
+    version: 0.1.0
+  inventory-postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.169375887+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 0cbf372bebce799ef9cda51aa093f5b039cde7a8e7413febaa2f51a370381d5d
+    name: inventory-postgres
+    type: application
+    urls:
+    - inventory-postgres-0.1.0.tgz
+    version: 0.1.0
+  inventory-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.16949135+03:00"
+    description: A Helm chart for Kubernetes
+    digest: cd776b4b07fd8c5d8cf84ca63d612c568ca4213d90be0732fed469aae5a11c7d
+    name: inventory-service
+    type: application
+    urls:
+    - inventory-service-0.1.0.tgz
+    version: 0.1.0
+  kafka:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.16968848+03:00"
+    description: A Helm chart for Kubernetes
+    digest: d79e8f8a681afcbb00311dfa0dcd0fb506af6afd81692a1ed6842a56787b8376
+    name: kafka
+    type: application
+    urls:
+    - kafka-0.1.0.tgz
+    version: 0.1.0
+  keycloak:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170047562+03:00"
+    description: A Helm chart for Kubernetes
+    digest: dc1a4fe88a9387aea5c48d726d19cb907f0972a9b0c7c83e2b3f4ff277f3f619
+    name: keycloak
+    type: application
+    urls:
+    - keycloak-0.1.0.tgz
+    version: 0.1.0
+  loki:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170173815+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 2389a1bfd6e6663e130e8730c91447f912c4fc609bd489769b4b7acf64700a46
+    name: loki
+    type: application
+    urls:
+    - loki-0.1.0.tgz
+    version: 0.1.0
+  notification-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170327461+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 8ea6a5f160728c405b9728cc1a90f35fa462e8472c468af66b6338b597a17756
+    name: notification-service
+    type: application
+    urls:
+    - notification-service-0.1.0.tgz
+    version: 0.1.0
+  order-postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170433486+03:00"
+    description: A Helm chart for Kubernetes
+    digest: b297db2ab2c3c7d7a49a163c06acbcb4b1e5a8292f7714bbc5dc5e3b78747b9e
+    name: order-postgres
+    type: application
+    urls:
+    - order-postgres-0.1.0.tgz
+    version: 0.1.0
+  order-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170543868+03:00"
+    description: A Helm chart for Kubernetes
+    digest: af78d6c2c227ca4b5b0220da9cbf8c2e4c8a792f4900908290bfb946d4c7f0e7
+    name: order-service
+    type: application
+    urls:
+    - order-service-0.1.0.tgz
+    version: 0.1.0
+  otel-collector:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170678488+03:00"
+    description: A Helm chart for Kubernetes
+    digest: e5d7c8698d89b79651fc43004265ca80257fc8ca54fd4a369373baa4b5ea7c2a
+    name: otel-collector
+    type: application
+    urls:
+    - otel-collector-0.1.0.tgz
+    version: 0.1.0
+  product-postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170776366+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 25c845acdf32baccf16dc569dedeb0ac9d63bfbfaafb58b29befe351c6270fbb
+    name: product-postgres
+    type: application
+    urls:
+    - product-postgres-0.1.0.tgz
+    version: 0.1.0
+  product-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170891488+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1cb8d97c993a6d0f88358960e547ef6ca010cc96751fade0f8f9dadde98a2ef2
+    name: product-service
+    type: application
+    urls:
+    - product-service-0.1.0.tgz
+    version: 0.1.0
+  prometheus:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.170993655+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 92c7daef810af2b10763a37bfb64f19a2d69e0066a82dfcd13b402c96b302547
+    name: prometheus
+    type: application
+    urls:
+    - prometheus-0.1.0.tgz
+    version: 0.1.0
+  tempo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-08T15:56:30.171118656+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 9684387ee4527415ecff5aa84349fb521edf53de934b2c878d27bbc41defe280
+    name: tempo
+    type: application
+    urls:
+    - tempo-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-08T15:56:30.168628577+03:00"
